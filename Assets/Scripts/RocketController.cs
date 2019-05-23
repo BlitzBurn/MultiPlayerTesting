@@ -8,7 +8,9 @@ public class RocketController : MonoBehaviour
 
     public GameObject ship;
     public Rigidbody rocketRB;
-    public float RocketForce;
+
+    public float rocketForce;
+    public float rotationSpeed;
 
     void Start()
     {
@@ -20,12 +22,17 @@ public class RocketController : MonoBehaviour
     {
         if (this.direction != null && Input.GetKeyDown(KeyCode.Space))
         {
-            rocketRB.AddForce(direction.right*RocketForce);
+            rocketRB.AddForce(direction.right*rocketForce);
         }
 
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.A))
         {
+            ship.transform.Rotate(Vector3.left*rotationSpeed);
+        }
 
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            ship.transform.Rotate(Vector3.right * rotationSpeed);
         }
     }
 }
