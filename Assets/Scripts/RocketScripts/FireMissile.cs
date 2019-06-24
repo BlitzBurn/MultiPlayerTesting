@@ -15,7 +15,7 @@ public class FireMissile : MonoBehaviour
 
     void Update()
     {
-
+        //c.transform.rotation.eulerAngles.x
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
            
