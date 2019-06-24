@@ -194,6 +194,8 @@ GameObject:
   - component: {fileID: 5247582188818831752}
   - component: {fileID: 5234992358382941055}
   - component: {fileID: 184528408244891804}
+  - component: {fileID: 4832840845346009573}
+  - component: {fileID: -6748966915288415766}
   m_Layer: 0
   m_Name: RedRocket
   m_TagString: Untagged
@@ -275,3 +277,33 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4832840845346009573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8886951598678817667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8e414b95b2c7e948b350d9b0b33db48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Missile: {fileID: 7844516961318534724, guid: fcf192d8f6bb05546a3e8d2084b31fd3, type: 3}
+  Rocket: {fileID: 8886951598678817667}
+--- !u!114 &-6748966915288415766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8886951598678817667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c4265e17401664b9950d7ce6874cda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftXborder: -49
+  rightXborder: 49
+  upperYborder: 26.5
+  bottomYborder: -26.5
