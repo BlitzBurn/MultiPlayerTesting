@@ -21,7 +21,7 @@ public class FireMissile : MonoBehaviour
            
             Vector3 SpawnPoint =  new Vector3(0, 0, 0);
 
-            Instantiate(Missile, SpawnPoint, Rocket.transform.rotation);
+            Instantiate(Missile, SpawnPoint, Quaternion.Euler(90, 90, 0));
         }
 
     }
