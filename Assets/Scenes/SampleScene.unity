@@ -745,7 +745,7 @@ PrefabInstance:
     - target: {fileID: 4470419117731601933, guid: eafc1085a9151f54c9d561022525b68a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.95
+      value: 5.45
       objectReference: {fileID: 0}
     - target: {fileID: 4470419117731601933, guid: eafc1085a9151f54c9d561022525b68a,
         type: 3}
@@ -797,6 +797,11 @@ PrefabInstance:
       propertyPath: MissileCooldown
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4832840845346009573, guid: eafc1085a9151f54c9d561022525b68a,
+        type: 3}
+      propertyPath: RocketDirection
+      value: 
+      objectReference: {fileID: 4470419117731601933}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eafc1085a9151f54c9d561022525b68a, type: 3}
 --- !u!4 &4470419117731601933 stripped
