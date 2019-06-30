@@ -62,22 +62,6 @@ MonoBehaviour:
   direction: {fileID: 2261841487384033255}
   rocketRB: {fileID: 7007511125811939316}
   rocketForce: 40
---- !u!114 &7007511125811939319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6502486740347048553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89c4265e17401664b9950d7ce6874cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftXborder: -49
-  rightXborder: 49
-  upperYborder: 26.5
-  bottomYborder: -26.5
 --- !u!114 &7007511125811939320
 MonoBehaviour:
   m_ObjectHideFlags: 0
