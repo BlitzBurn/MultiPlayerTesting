@@ -194,6 +194,8 @@ GameObject:
   - component: {fileID: 56699558934698235}
   - component: {fileID: 1235242651800291217}
   - component: {fileID: 7208745002593417624}
+  - component: {fileID: 3541169694565419394}
+  - component: {fileID: 1780487688779093566}
   m_Layer: 0
   m_Name: GreenRocket
   m_TagString: Untagged
@@ -275,3 +277,32 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3541169694565419394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7581040398893439514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddbb91b879e65704eb836ec4449d8957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AmountOfHealth: 0
+--- !u!114 &1780487688779093566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7581040398893439514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c4265e17401664b9950d7ce6874cda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftXborder: 0
+  rightXborder: 0
+  upperYborder: 0
+  bottomYborder: 0

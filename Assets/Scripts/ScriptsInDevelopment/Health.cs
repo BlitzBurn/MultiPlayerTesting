@@ -6,7 +6,7 @@ public class Health : MonoBehaviour
 {
 
     public static float HealtPoints;
-    public int TestVariableDeleteLater;
+    public int AmountOfHealth;
 
     
 
@@ -18,7 +18,13 @@ public class Health : MonoBehaviour
   
     void Update()
     {
-               
+
+        if (AmountOfHealth == 0)
+        {
+            Destroy(gameObject);
+            Debug.Log("Ded");
+        }
+
     }
 
     void OnCollisionEnter(Collision collision)
@@ -27,10 +33,10 @@ public class Health : MonoBehaviour
         {
             Debug.Log("Missile hit");
 
-            //var ExplodeOnContact : DetonateMissile = collision
-
-            ExplodeOnContact explodeScript = collision.gameObject.GetComponent<ExplodeOnContact>();
+            MissileExplode explodeScript = collision.gameObject.GetComponent<MissileExplode>();
             explodeScript.DetonateMissile();
+
+            AmountOfHealth = AmountOfHealth - 1;
         }
         
     }

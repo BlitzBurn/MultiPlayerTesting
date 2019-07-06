@@ -914,7 +914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddbb91b879e65704eb836ec4449d8957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TestVariableDeleteLater: 0
+  AmountOfHealth: 3
 --- !u!4 &1687128081 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4600097604571624249, guid: 4bbcdd62aa9d9a04990ff3d9d2aef78c,
